@@ -1,0 +1,99 @@
+@media(max-width: 1200px) {
+
+    .header__content-title {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .main__blocks-img {
+        width: 100%;
+    }
+
+    .main__blocks-miniblock {
+        justify-content: space-between;
+    }
+}
+
+@media(max-width: 992px) {
+
+    .header__content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .header__content-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main__content-comments{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main__content-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main__content-title {
+        text-align: center;
+    }
+
+    .main__content-description {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .header__nav {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media(max-width: 768px) {
+
+    .header__nav-buttons {
+        margin: 15px auto 15px auto;
+    }
+
+    .header__content-img {
+        width:  100%;
+    }
+
+    .main__content-team {
+        padding: 0 15px;
+    }
+}
+
+@media(max-width: 576px) {
+    
+    .main__blocks-miniblocks {
+        flex-wrap: wrap;
+        row-gap: 24px;
+    }
+
+    .footer__menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 15px;
+    }
+}
+
+@media(max-width: 480px) {
+    
+    .main__content-cards {
+        flex-wrap: wrap;
+        row-gap: 15px;
+    }
+
+    .footer__content {
+        padding: 0 15px;
+    }
+
+    .main__content-twitter {
+        padding: 0 15px;
+    }
+}
